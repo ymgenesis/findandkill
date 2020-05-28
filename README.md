@@ -46,7 +46,7 @@ Failed. Either no running process(es) matching noprocesscalledthis, or process(e
 ## Troubleshooting
 First, make script executable:
 
-`sudo chmod +x /path/to/script/findandkill.sh)`
+`sudo chmod +x /path/to/script/findandkill.sh`
 
 Then, try again:
 
