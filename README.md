@@ -40,7 +40,7 @@ findandkill noprocesscalledthis
 
 The above process(es) will be terminated. Are you sure [y/n]? y
 Terminating processes matching noprocesscalledthis...
-Failed. No running process matching noprocesscalledthis.
+Failed. Either no running process(es) matching noprocesscalledthis, or process(es) noprocesscalledthis belong(s) to root.
 ```
 
 ## Troubleshooting
