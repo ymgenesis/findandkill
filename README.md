@@ -21,7 +21,7 @@ Or, login as root and run the script.
 
 ## Examples
 ```
-findandkill sleep
+$ ./findandkill.sh sleep
 USER     PID   0.0  0.0  4267964    700 s001  S     1:32pm   0:00.00 sleep 3600
 USER     PID   0.0  0.0  4267964    700 s001  S     1:32pm   0:00.00 sleep 3600
 USER     PID   0.0  0.0  4267964    700 s001  S     1:32pm   0:00.00 sleep 3600
@@ -32,11 +32,11 @@ Terminating processes matching sleep...
 Success! All processes matching sleep were terminated.
 ```
 ```
-findandkill too many arguments
+$ ./findandkill.sh too many arguments
 Too many arguments. One at a time.
 ```
 ```
-findandkill noprocesscalledthis
+$ ./findandkill.sh noprocesscalledthis
 
 The above process(es) will be terminated. Are you sure [y/n]? y
 Terminating processes matching noprocesscalledthis...
